@@ -36,6 +36,3 @@ part raid.22 --size=8192 --grow --ondisk=nvme1n1
 raid /boot --device=md0 --level=1 --fstype=xfs raid.01 raid.02
 raid /     --device=md1 --level=1 --fstype=xfs raid.11 raid.12
 raid /var  --device=md2 --level=1 --fstype=xfs raid.21 raid.22
-
-
-%end
